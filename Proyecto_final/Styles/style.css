@@ -140,12 +140,12 @@ section{
 
 .formulario form input[type="submit"]:hover{
     background-color: #6abdc2;
-    color: whitesmoke;
+    color: #061d23;
     border-radius: 10px;
     transition: 0.5s;
 }
 
-.seccion2{
+.seccion2, .seccion4{
     gap: 20px;
     padding: 20px;
     font-size: 20px;
@@ -158,7 +158,7 @@ section{
     align-items: center;
 }
 
-.seccion2 img{
+.seccion2 img, .seccion4 img{
     width: 30%;
     height: auto;
     border-radius: 20px;
@@ -168,7 +168,17 @@ section{
 .miniseccion{
     padding: 20px;
     font-size: 20px;
+    font-family: "Lora", serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
+
+
+
 
 .miniseccion input[type="button"]{
     background-color:#ace0d7;
@@ -183,12 +193,12 @@ section{
 
 .miniseccion input[type="button"]:hover{
     background-color: #6abdc2;
-    color: whitesmoke;
+    color:#061d23;
     border-radius: 10px;
     transition: 0.5s;
 }
 
-.seccion3{
+.seccion3 , .seccion5{
     gap: 20px;
     padding: 20px;
     font-size: 20px;
@@ -201,7 +211,7 @@ section{
     align-items: center;
 }
 
-.seccion3 img{
+.seccion3 img , .seccion5 img{
     width: 30%;
     height: auto;
     border-radius: 20px;
@@ -214,3 +224,106 @@ section{
     border-radius: 20px;
     margin: 5% 10% ;
 }
+
+/* Footer */
+
+
+/* ------------------------------------------------------ */
+/* Media querys */
+/* Media queries para tablets y pantallas medianas */
+@media (max-width: 1024px) {
+    header {
+      align-items: flex-start;
+      text-align: center;
+    }
+  
+    .navegacion {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  
+    .principal_imagen img {
+      height: 40%;
+    }
+  
+    section {
+      grid-template-columns: 1fr; 
+    }
+  
+    .imagenseccion1 img {
+      margin: 5% auto; 
+    }
+  
+    .seccion2 img,
+    .seccion4 img,
+    .seccion3 img,
+    .seccion5 img {
+      width: 50%; 
+      margin: 0 auto; 
+    }
+  
+    #percusion {
+      width: 50%;
+      margin: 0 auto;
+    }
+  
+    .miniseccion input[type="button"] {
+      width: 50%; 
+    }
+  }
+  
+  /* Media queries para móviles y pantallas pequeñas */
+  @media (max-width: 768px) {
+    header {
+      text-align: center;
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .logo img {
+      width: 80px;
+      height: 80px; 
+    }
+  
+    .navegacion {
+      gap: 5px;
+    }
+  
+    .principal_imagen img {
+      height: 20%;
+    }
+  
+    section {
+      gap: 10px; 
+    }
+  
+    .imagenseccion1 img {
+        margin: 10% 50% ;
+    }
+  
+    .seccion2,
+    .seccion3,
+    .seccion4,
+    .seccion5 {
+      flex-direction: column; 
+      text-align: center;
+    }
+  
+    .seccion2 img,
+    .seccion4 img,
+    .seccion3 img,
+    .seccion5 img {
+      width: 80%; 
+    }
+  
+    #percusion {
+      width: 80%;
+    }
+  
+    .miniseccion input[type="button"] {
+      width: 70%; 
+    }
+  }
+  
