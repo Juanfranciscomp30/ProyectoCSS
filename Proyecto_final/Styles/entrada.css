@@ -1,0 +1,65 @@
+.badge {
+    background-color:#ace0d7; 
+    color: #ffffff;
+  }
+  
+.badge:hover {
+background-color: #6abdc2;
+color: #ffffff;
+}
+
+.card-body a {
+  color: #6abdc2;
+  text-decoration: none;
+}
+
+.card-body a:hover {
+  color: #1c6c70; 
+  text-decoration: none;
+}
+
+.enlace {
+    color: #6abdc2;
+    text-decoration: none;
+  }
+  
+  .enlace:hover {
+    color: #1c6c70; 
+    text-decoration: none;
+  }
+
+.categorias{
+    padding: 2%;
+    margin: 2%;
+    border: #1c6c70 3px solid;
+    width: 50%;
+}
+
+.categorias a{
+    text-decoration: none;
+    color: #1c6c70;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+}
+
+#conjuntocategorias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ruta{
+    color: #1c6c70;
+}
+
+#ruta a{
+    text-decoration: none;
+    color: #1c6c70;
+}
+
+#ruta a:hover{
+    color: #6abdc2;
+    text-decoration: underline;
+    transition: all 0.3s ease-in-out;
+}
