@@ -1,11 +1,36 @@
-.color1 {color: #6abdc2;}
-.color2 {color: #ace0d7;}
-.color3 {color: #061d23;}
-.color4 {color: #727b7b;}
-.color5 {color: #e5e5e5;}
-
-
 Fuentes de Texto:
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
-Header-->
+
+Iconos header y Footer:
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+
+Header y Footer
+Realizados con display flex y display grid y sus diferentes propiedades como pueden ser space bettewn y justify content y aglin items
+Ademas todos los elementos tienen propiedades :hover tanto de transition, cambio de color, aumento de escala...
+
+Contenido principal de las diferentes paginas:
+Realizado con display en las dos primeras paginas, en cuanto a las dos ultimas paginas estan realizadas con boostrap lo que es el contenido main 
+
+Selectores CSS para las dos primeras paginas:
+He utilizado diferentes selectores de hijos, de clases y de id tal como hemos dado a lo largo del curso.
+
+Paginas con CSS:
+El main organizado segun necesito con display flex o grid segun veo conveninete en funcion a la disposicion de la pagina y a la manera de hacerlo responsive
+
+Paginas con Boostrap:
+Organizado siguiendo los estandares de boostrap dividiendo todo en diferentes div y ajustando sus tamaños para hacerlo responsive y añadiendo los respectivos mb y ms 
+
+Colores:
+Seleccion de colores:
+    .color1 {color: #6abdc2;}
+    .color2 {color: #ace0d7;}
+    .color3 {color: #061d23;}
+    .color4 {color: #727b7b;}
+    .color5 {color: #e5e5e5;}
+
+Para el footer y header he utilizado el .color4
+Los links tienen .color2 y al hacer hover sobre ellos se pasan al .color1 
+El .color3 es el color de todas las letras de texto
+
+Todas las imagenes al hacer hover tienen una transicion y un aumento de escala al igual que los botones
 
